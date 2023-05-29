@@ -1,0 +1,36 @@
+body {
+  margin: auto;
+  max-width: 650px;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  font-size: 18px;
+  color: #444;
+  padding: 10px;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+form {
+	margin:auto;
+	display:block;
+  max-width: 400px;
+	padding: 20px 10px 10px 20px;
+	font-family: "Times New Roman";
+}
+
+input {
+  width: 400px;
+  height: 30px;
+}
+
+button {
+	margin:auto;
+	display:block;
+  width: 170px;
+}
+
+ul {
+  list-style-type: upper-roman;
+}

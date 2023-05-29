@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todolist.css" />
+    <script src="todolist.js"></script>
+  </head>
+
+  <body>
+    <h1>Todo List</h1>
+    <p>
+      A todolist I created.
+      <a href="https://github.com/StefanLenz1?tab=repositories"
+        >My GitHub profile</a
+      >
+    </p>
+    <p>
+      The submit forms get activated when written to. The third one deactivates
+      when there is more than one word is entered. The remove buttons activate
+      when there is atleast one task
+    </p>
+    <p>Entering a task to remove is case-insensitiv.</p>
+    <form id="input_form">
+      <input autofocus id="input_field" placeholder="Todo task" type="text" />
+      <input
+        id="input_submit_button"
+        class="submit_button"
+        type="submit"
+        value="add task"
+      />
+    </form>
+    <form id="remove_form">
+      <input id="remove_field" placeholder="Remove finished task" type="text" />
+      <input
+        id="remove_submit_button"
+        class="submit_button"
+        type="submit"
+        value="remove task"
+      />
+    </form>
+    <form id="remove_oneword_form">
+      <input
+        id="remove_oneword_field"
+        placeholder="Remove tasks containing this word"
+        type="text"
+      />
+      <input
+        id="remove_oneword_submit_button"
+        class="submit_button"
+        type="submit"
+        value="remove tasks"
+      />
+    </form>
+    <button id="remove_all_button">Remove all</button>
+    <button id="remove_newest_button">Remove last task</button>
+    <button id="remove_oldest_button">Remove first task</button>
+    <ul></ul>
+  </body>
+</html>
